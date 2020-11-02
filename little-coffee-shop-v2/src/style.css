@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Merriweather', sans-serif;
+}
+  
+  .container{
+      width: 80%
+      margin: 0 auto;       
+  }
+
+#header {
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right; 
+ }
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  padding-right: 55px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  
+} 
+
+nav ul li a:hover {
+  color: gray;
+  text-transform: uppercase;
+  background: black;
+  
+}
+
+.nav-link{
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  
+}
+
+
+img.resize {
+  max-width:100%;
+  max-height:100%;
+  display: block;
+  margin: auto;
+  width: 50%;
+  
+}
+
+h2 {
+  color: #fff;
+}
+
+
+ p {
+  color: #fff;
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: none;
+  color:#fff
+}
+
+p a:hover {
+  color: blue;
+}
+
+
+#video {
+    display: block;
+    margin: 50px auto;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.coffee-price {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+
+.other {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.types {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+
+}
+
+ol {
+    text-align: justify;
+    color: white;
+    list-style-type: circle;  
+}
+
+.other ol {
+  color: white;
+  padding-right: 30px;
+}
+
+.subm {
+    width: 40%;
+    margin: 10px;
+    padding: 7px;
+    background-color: #2E2926;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.subm:hover {
+    background-color: grey;
+}
+
+form {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 11px;
+    border: 1px solid #111;
+}
+.em {
+    display: block;
+    width: 50%;
+    padding: 8px;
+    margin: auto;
+}
+
+
+footer p {
+  float: left;
+  padding-right: 55px;
+  padding-bottom: 25px;
+ 
+}
+
+footer ul {
+  list-style: none;
+  
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+  float: right;
+  padding-right: 55px;
+  padding-bottom: 25px;
+}
+
+footer li ul img:hover {
+  color: red;
+}
+
+
+
